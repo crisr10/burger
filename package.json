@@ -1,0 +1,34 @@
+{
+  "name": "eat-tha-burger",
+  "version": "1.0.0",
+  "description": "Express, node, handlbars application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crisr10/eat-tha-burger.git"
+  },
+  "keywords": [
+    "node",
+    "app",
+    "burger",
+    "express",
+    "handlebars"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crisr10/eat-tha-burger/issues"
+  },
+  "homepage": "https://github.com/crisr10/eat-tha-burger#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.7",
+    "mysql": "^2.12.0"
+  }
+}
