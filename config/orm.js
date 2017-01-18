@@ -1,5 +1,6 @@
 // Import MySQL connection.
 var connection = require("../config/connection.js");
+console.log('Orm working');
 
 // Helper function for SQL syntax.
 function printQuestionMarks(num) {
