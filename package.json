@@ -1,7 +1,7 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "Express, node, handlebars application",
+  "description": "Node app that allows use to add and \"devour\" burgers",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,13 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/crisr10/burger.git"
   },
-  "keywords": [
-    "node",
-    "app",
-    "burger",
-    "express",
-    "handlebars"
-  ],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -30,7 +23,5 @@
     "express-handlebars": "^3.0.0",
     "method-override": "^2.3.7",
     "mysql": "^2.12.0"
-  },
-  "engines": {
-    "node": "6.9.1"}
+  }
 }
