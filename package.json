@@ -31,5 +31,6 @@
     "method-override": "^2.3.7",
     "mysql": "^2.12.0"
   },
-  "engine": "node 6.9.1"
+  "engines": {
+    "node": "6.9.1"}
 }
