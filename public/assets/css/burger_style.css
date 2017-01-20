@@ -1,24 +1,48 @@
-li {
-  background: #FAEBD7;
-  margin: 5px;
-  padding: 5px;
-}
-
 .label {
   font-weight: bold;
 }
 
 .create-update-form {
-  background: aqua;
+  display: block;
   margin: 5px;
   padding: 5px;
 }
 
-.form-group {
+/*.form-group {
   margin-bottom: 5px;
-}
+  display: block;
+}*/
 
 #input {
 	height:40px;
-	width:100px;
+	width:200px;
+}
+
+body {
+  text-align:center;
+}
+
+#pic {
+  width:200px;
+}
+
+#burger {
+  padding:10px;
+  margin-bottom:10px;
+  font-size: 20px;
+  width:300px;
+  list-style-type: none;
+  background-color:#00FFFF;
+}
+
+#devour {
+  margin-top: 10px;
+}
+
+li.well {
+  padding:0;
+  text-align: center;
+  height:25px;
+  margin-bottom:0;
+  list-style-type: none;
 }
