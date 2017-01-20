@@ -1,6 +1,11 @@
-.label {
-  font-weight: bold;
+body {
+  text-align:center;
+  background-color: #cdab7e;
 }
+
+/*.label {
+  font-weight: bold;
+}*/
 
 .create-update-form {
   display: block;
@@ -8,35 +13,14 @@
   padding: 5px;
 }
 
-/*.form-group {
-  margin-bottom: 5px;
-  display: block;
-}*/
-
 #input {
 	height:40px;
 	width:200px;
 }
 
-body {
-  text-align:center;
-}
-
 #pic {
+  margin-top:20px;
   width:200px;
-}
-
-#burger {
-  padding:10px;
-  margin-bottom:10px;
-  font-size: 20px;
-  width:300px;
-  list-style-type: none;
-  background-color:#00FFFF;
-}
-
-#devour {
-  margin-top: 10px;
 }
 
 li.well {
@@ -46,3 +30,26 @@ li.well {
   margin-bottom:0;
   list-style-type: none;
 }
+
+li {
+  list-style-type: none;
+}
+
+.devourForm {
+  width:80px;
+  float:left;
+  margin:10px;
+}
+
+#burger {
+  color:#8f401a;
+  background-color:   #DEB887;
+  float:left;
+  padding:10px;
+  width:70%;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+}
+
+
+

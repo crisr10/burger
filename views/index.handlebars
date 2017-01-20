@@ -1,7 +1,8 @@
 <img src="/assets/img/burger.jpeg" id='pic'>
 
 <h1>Eat-Tha-Burger </h1>
-
+<br>
+<br>
 
 <div class="container">
   <div class="row">
@@ -11,19 +12,17 @@
       <ul>
         {{#each burgers}}
         {{#if this.devoured}}
-        <div class="row">
-        <div class="col-sm-8">
-          <li id="burger">
+        <li>
+          <div id="burger">
             {{this.id}}.
             {{this.burger_name}}
-
-            <form action="/{{this.id}}?_method=PUT" method="POST">
-              <input type="hidden" name="devoured" value="false">
-            </form>
-          </li>
           </div>
+          <form class="devourForm" action="/{{this.id}}?_method=PUT" method="POST">
+            <input type="hidden" name="devoured" value="false">
+            <button id="devour" type="submit">DEVOUR!</button>
 
-          <button id="devour" type="submit">DEVOUR!</button>        </div> <!-- row -->
+          </form>
+        </li>
         {{/if}}
         {{/each}}
       </ul>
