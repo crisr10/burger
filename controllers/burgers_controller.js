@@ -15,7 +15,7 @@ router.get('/index', function (req,res) {
 router.post('/index', function (req, res){
 	console.log('BURGER NAME: '+req.body.burger_name);
 	burger.insertOne([
-		'burger_name', 'devoured'], [req.body.burger_name, req.body.devoured], function(){
+		'burger_name', 'devoured'], [req.body.burger_name, 1], function(){
 			res.redirect('/index');
 		});
 });
