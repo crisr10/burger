@@ -1,3 +1,3 @@
 # Burger
 
-Imput a burger. The app grabs the name and creates a box that allows the user to devour it.
+Input a burger. The app grabs the name and creates the burger, the user can then devour it.
