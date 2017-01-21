@@ -34,7 +34,7 @@
         {{#each burgers}}
         {{#unless this.devoured}}
         <li class="well well-sm">
-
+          {{this.id}}.
           {{this.burger_name}}
 
           <form action="/{{this.id}}?_method=PUT" method="POST">
