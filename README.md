@@ -1,3 +1,5 @@
 # Burger
 
-Input a burger. The app grabs the name and creates the burger, the user can then devour it.
+MVC framework burger logger with MySQL, Node, Express, Handlebars and a homemade ORM.
+
+##
